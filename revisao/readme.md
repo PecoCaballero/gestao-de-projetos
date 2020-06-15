@@ -25,7 +25,7 @@ Processo de Iniciação > Processos de Planejamento > Processos de Execução > 
 
 
 
-early finish = duration + early
-late finish = (early start da sucessora - 1)
-late start = (late finish - duration) + 1
-total float = late finish - early finish
+        early finish = (duration + early start) - 1 
+        late finish = early start da sucessora - 1
+        late start = (late finish - duration) + 1
+        total float = late finish - early finish
